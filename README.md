@@ -1,8 +1,14 @@
 # PulseHub — Employee Experience Platform (Interactive Demo)
 
+<p align="center">
+  <a href="http://pulsehub.korognai.net"><img src="docs/guided-tour.gif" alt="PulseHub guided tour" width="880"></a>
+  <br>
+  <em><a href="http://pulsehub.korognai.net">▶ Try the live demo</a> · or open <code>index.html</code> locally</em>
+</p>
+
 A self-contained, single-file demo of a modern **agentic HR platform** — engagement surveys, recognition, goals & OKRs, performance and 1-on-1s, an AI **Manager Agent**, an always-on people-insights layer, and a full **compensation** module — all tied together by a role-based permission model that mirrors a real reporting hierarchy.
 
-It runs entirely in your browser from one HTML file. **No install, no build, no server, no internet required.** However if you want, you can take a look at the demo here: http://pulsehub.korognai.net
+It runs entirely in your browser from one HTML file. **No install, no build, no server, no internet required.**
 
 > ⚠️ **This is an illustrative demo.** It was built independently from publicly-described product concepts to showcase demo craft, product understanding and agentic-AI fluency. It is **not** affiliated with, endorsed by, or connected to any company, and contains **no** proprietary code, data, or confidential information. Every person, metric, benchmark and AI output is **fictional**.
 
@@ -21,6 +27,10 @@ It runs entirely in your browser from one HTML file. **No install, no build, no 
 ---
 
 ## 🚀 Quick start
+
+**Live demo:** **[pulsehub.korognai.net](http://pulsehub.korognai.net)** — nothing to install.
+
+Or run it locally:
 
 ```text
 1. Download / clone this repo.
@@ -104,7 +114,7 @@ Every screen and every number is scoped to who you are and who reports to you.
 | File | Description |
 |------|-------------|
 | `index.html` | The complete interactive demo. |
-| `docs/` | Generated screenshots |
+| `docs/` | Screenshots and the guided-tour GIF used in this README. |
 | `PulseHub-User-Guide.pdf` | Detailed, long-form product guide (every screen + a glossary). |
 | `Sales-Onepagers.pdf` | Value-narrative + discovery→demo map one-pagers. |
 | `About-This-Build.pdf` | One-page cover note tying the pack together. |
@@ -116,7 +126,7 @@ Every screen and every number is scoped to who you are and who reports to you.
 
 ## 📸 Screenshots
 
-Screenshots are generated automatically from the running demo:
+Captured from the running demo — every view is deep-linkable (see below), so the shots stay in sync with the app.
 
 |  |  |
 |--|--|
@@ -131,21 +141,7 @@ Screenshots are generated automatically from the running demo:
 
 ### Deep links (bonus)
 
-The app supports URL-hash deep links, handy for demos:
+The app supports URL-hash deep links, handy for demos and shareable views:
 
 ```text
-index.html#user=1&view=dashboard
-index.html#user=1&view=comp&tab=reviews
-index.html#user=1&view=directory&contact=8
-index.html#tour=0&step=1
-```
-
-Parameters: `user` (1–15), `view`, `tab` (comp / engagement tab name), `contact` (person id), `tour` (0–3) + `step`.
-
----
-
-## ⚖️ Disclaimer & license
-
-This project is an **independent, illustrative demonstration**. All names, organizations, metrics, market benchmarks and AI-generated text are **fictional and for demonstration only**. It is not affiliated with or endorsed by any company and contains no proprietary or confidential material.
-
-Released under the **MIT License** (see [`LICENSE`](LICENSE)) — use it freely as a reference or starting point.
+index.html#user=1&view=das
