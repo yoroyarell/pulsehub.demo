@@ -2,7 +2,7 @@
 
 A self-contained, single-file demo of a modern **agentic HR platform** — engagement surveys, recognition, goals & OKRs, performance and 1-on-1s, an AI **Manager Agent**, an always-on people-insights layer, and a full **compensation** module — all tied together by a role-based permission model that mirrors a real reporting hierarchy.
 
-It runs entirely in your browser from one HTML file. **No install, no build, no server, no internet required.**
+It runs entirely in your browser from one HTML file. **No install, no build, no server, no internet required.** However if you want, you can take a look at the demo here: http://pulsehub.korognai.net
 
 > ⚠️ **This is an illustrative demo.** It was built independently from publicly-described product concepts to showcase demo craft, product understanding and agentic-AI fluency. It is **not** affiliated with, endorsed by, or connected to any company, and contains **no** proprietary code, data, or confidential information. Every person, metric, benchmark and AI output is **fictional**.
 
