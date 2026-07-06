@@ -104,7 +104,6 @@ Every screen and every number is scoped to who you are and who reports to you.
 | File | Description |
 |------|-------------|
 | `index.html` | The complete interactive demo. |
-| `capture-screenshots.sh` | One-command screenshot generator (headless Chrome). Run `bash capture-screenshots.sh`. |
 | `docs/` | Generated screenshots (+ a note on the capture script and deep links). |
 | `PulseHub-User-Guide.pdf` | Detailed, long-form product guide (every screen + a glossary). |
 | `Sales-Onepagers.pdf` | Value-narrative + discovery→demo map one-pagers. |
@@ -114,16 +113,6 @@ Every screen and every number is scoped to who you are and who reports to you.
 | `README.md` | This file. |
 
 ---
-
-## 📸 Screenshots
-
-Screenshots are generated automatically from the running demo — no manual capturing. From the repo root:
-
-```bash
-./capture-screenshots.sh
-```
-
-This drives your local Chrome / Chromium / Edge (headless) and writes PNGs into `docs/`. Once generated, they render below:
 
 |  |  |
 |--|--|
