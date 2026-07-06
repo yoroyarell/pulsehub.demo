@@ -31,7 +31,8 @@ fi
 echo "Using browser: $CHROME"
 
 DIR="$(cd "$(dirname "$0")" && pwd)"
-FILE="file://$DIR/index.html"
+#FILE="file://$DIR/index.html"
+FILE="http://pulsehub.korognai.net"
 mkdir -p "$DIR/docs"
 
 shot() {  # shot <output.png> <hash>
