@@ -144,4 +144,18 @@ Captured from the running demo — every view is deep-linkable (see below), so t
 The app supports URL-hash deep links, handy for demos and shareable views:
 
 ```text
-index.html#user=1&view=das
+index.html#user=1&view=dashboard
+index.html#user=1&view=comp&tab=reviews
+index.html#user=1&view=directory&contact=8
+index.html#tour=0&step=1
+```
+
+Parameters: `user` (1–15), `view`, `tab` (comp / engagement tab name), `contact` (person id), `tour` (0–3) + `step`.
+
+---
+
+## ⚖️ Disclaimer & license
+
+This project is an **independent, illustrative demonstration**. All names, organizations, metrics, market benchmarks and AI-generated text are **fictional and for demonstration only**. It is not affiliated with or endorsed by any company and contains no proprietary or confidential material.
+
+Released under the **MIT License** (see [`LICENSE`](LICENSE)) — use it freely as a reference or starting point.
