@@ -104,7 +104,7 @@ Every screen and every number is scoped to who you are and who reports to you.
 | File | Description |
 |------|-------------|
 | `index.html` | The complete interactive demo. |
-| `docs/` | Generated screenshots (+ a note on the capture script and deep links). |
+| `docs/` | Generated screenshots |
 | `PulseHub-User-Guide.pdf` | Detailed, long-form product guide (every screen + a glossary). |
 | `Sales-Onepagers.pdf` | Value-narrative + discovery→demo map one-pagers. |
 | `About-This-Build.pdf` | One-page cover note tying the pack together. |
@@ -116,7 +116,7 @@ Every screen and every number is scoped to who you are and who reports to you.
 
 ## 📸 Screenshots
 
-Screenshots are generated automatically from the running demo — no manual capturing:
+Screenshots are generated automatically from the running demo:
 
 |  |  |
 |--|--|
@@ -131,7 +131,7 @@ Screenshots are generated automatically from the running demo — no manual capt
 
 ### Deep links (bonus)
 
-The app supports URL-hash deep links, handy for demos and for the screenshot script:
+The app supports URL-hash deep links, handy for demos:
 
 ```text
 index.html#user=1&view=dashboard
